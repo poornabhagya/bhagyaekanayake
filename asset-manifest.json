@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/bhagyaekanayake/static/css/main.466e2150.css",
+    "main.js": "/bhagyaekanayake/static/js/main.4c4cbd04.js",
+    "static/js/488.9c92ff38.chunk.js": "/bhagyaekanayake/static/js/488.9c92ff38.chunk.js",
+    "static/media/p4.png": "/bhagyaekanayake/static/media/p4.c3e36d768af801cb32fd.png",
+    "static/media/p1.png": "/bhagyaekanayake/static/media/p1.30ec1bb28fc5722ad1e2.png",
+    "static/media/p3.png": "/bhagyaekanayake/static/media/p3.5acfd303843418f1106f.png",
+    "static/media/p8.png": "/bhagyaekanayake/static/media/p8.94b6f17576e79f718490.png",
+    "static/media/p7.png": "/bhagyaekanayake/static/media/p7.4f177818edec41507296.png",
+    "static/media/p5.png": "/bhagyaekanayake/static/media/p5.35e13886a06ee3f2632e.png",
+    "static/media/p2.jpg": "/bhagyaekanayake/static/media/p2.d006c1588b416cf28e11.jpg",
+    "static/media/propic.jpg": "/bhagyaekanayake/static/media/propic.24d18c2120f442a51cfa.jpg",
+    "static/media/my_resume.pdf": "/bhagyaekanayake/static/media/my_resume.2aab49075b9d0e0d697f.pdf",
+    "static/media/p6.png": "/bhagyaekanayake/static/media/p6.312d793680c1209e677d.png",
+    "static/media/propic2.jpg": "/bhagyaekanayake/static/media/propic2.eba905dd885ed19110bb.jpg",
+    "static/media/1.svg": "/bhagyaekanayake/static/media/1.d3042e4cab08d9b63998492137d5dc52.svg",
+    "static/media/3.svg": "/bhagyaekanayake/static/media/3.67ae0b69e77b5007d9d1ac9e94ffd045.svg",
+    "static/media/4.svg": "/bhagyaekanayake/static/media/4.0fed96e45bc2792157548c3130a3f1fd.svg",
+    "index.html": "/bhagyaekanayake/index.html",
+    "main.466e2150.css.map": "/bhagyaekanayake/static/css/main.466e2150.css.map",
+    "main.4c4cbd04.js.map": "/bhagyaekanayake/static/js/main.4c4cbd04.js.map",
+    "488.9c92ff38.chunk.js.map": "/bhagyaekanayake/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.466e2150.css",
+    "static/js/main.4c4cbd04.js"
+  ]
+}
