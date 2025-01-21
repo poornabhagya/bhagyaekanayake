@@ -1,0 +1,84 @@
+/* Footer Section Styling */
+.footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures proper alignment on smaller screens */
+    text-align: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+
+.footer-section p {
+    font-size: 0.9rem;
+    color: #dcdcdc;
+    font-family: "Inter", serif;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-icon {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 1.5rem 1rem;
+    }
+
+    .footer-section p {
+        font-size: 0.8rem;
+    }
+
+    .social-icons {
+        gap: 1rem;
+    }
+
+    .social-icon {
+        width: 25px;
+        height: 25px;
+    }
+}

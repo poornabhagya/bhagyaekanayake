@@ -1,0 +1,233 @@
+/* General Styling */
+.about-me-section {
+  padding: 2rem 20px;
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+/* Header Styling */
+.about-me-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 4.5rem;
+  margin-bottom: 3rem;
+}
+
+.highlight {
+  color: #FFC225;
+}
+
+/* Main Card Styling */
+.about-me-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  background-color: black;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+/* Profile Picture Styling */
+.profile-card {
+  flex: 1;
+  text-align: center;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  
+}
+
+/* Content Card Styling */
+.content-card {
+  flex: 1;
+  padding: 1rem;
+  background-color: #222121;
+  border-radius: 10px;
+  margin-left: 2rem;
+}
+
+/* Tab Title Styling */
+.tab-titles {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+  font-family: "Inter", serif;
+}
+
+.tab-titles button {
+  padding: 0.8rem 2rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: white;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.tab-titles button.active-tab {
+  border-bottom: 2px solid #FFC225;
+  font-weight: bold;
+  color: #FFC225;
+}
+
+/* Content Card Styling */
+.education-card, .certificate-card {
+  padding: 1rem;
+  background-color: #0C0C0C;
+  border-radius: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Google Font Styling for Main Education Levels */
+.education-card p strong, .certificate-card p strong {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+/* Google Font Styling for Subtitles */
+.education-card p, .certificate-card p {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  text-align: left; /* Default: left-align text */
+  margin-left: 2rem; /* Add tab-like space for larger screens */
+}
+
+/* Responsive Design for Mobile Screens */
+@media (max-width: 768px) {
+  .about-me-card {
+    flex-direction: column; /* Stack cards vertically */
+    padding: 1rem;
+  }
+
+  .profile-card {
+    display: flex;
+    justify-content: center; /* Center profile picture */
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .profile-pic {
+    width: 150px; /* Reduce size for smaller screens */
+    height: 150px;
+  }
+
+  .content-card {
+    margin-top: 1.5rem;
+    margin-left: 0;
+    width: 100%; /* Full width for smaller screens */
+    text-align: center; /* Center-align text for smaller screens */
+    padding: 1rem; /* Add padding inside the card */
+    word-wrap: break-word; /* Prevent long words from breaking layout */
+  }
+
+  .about-me-header {
+    font-size: 2.5rem; /* Scale down the header font size */
+  }
+
+  .tab-titles {
+    flex-direction: column; /* Stack tabs vertically */
+  }
+
+  .tab-titles button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    width: 100%; /* Make buttons full-width */
+  }
+
+  .education-card,
+  .certificate-card {
+    text-align: center; /* Center-align content */
+    padding: 0.8rem; /* Reduce padding */
+    word-wrap: break-word; /* Prevent overlapping */
+    overflow-wrap: break-word; /* Ensure text doesn't overflow */
+  }
+
+  .education-card p strong,
+  .certificate-card p strong {
+    font-size: 1rem; /* Adjust font size */
+    text-align: left; /* Keep the main education levels left-aligned */
+  }
+
+  .education-card p,
+  .certificate-card p {
+    font-size: 0.85rem; /* Adjust font size */
+    line-height: 1.2rem; /* Increase line height for readability */
+    margin: 0.5rem 0; /* Add margin to prevent text overlap */
+    text-align: center; /* Center-align the text */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-pic {
+    width: 120px; /* Further reduce size for very small screens */
+    height: 120px;
+  }
+
+  .about-me-header {
+    font-size: 2rem; /* Further reduce the header font size */
+  }
+
+  .content-card {
+    padding: 0.5rem;
+  }
+
+  .tab-titles button {
+    font-size: 0.9rem;
+  }
+
+  .education-card p,
+  .certificate-card p {
+    font-size: 0.8rem; /* Slightly smaller font for very small screens */
+    line-height: 1.4rem; /* Maintain readability */
+  }
+}
+
+
+/* Main Styling for Education and Certificate Tabs */
+.education-tab, 
+.certificate-tab {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+/* Active Tab Styling */
+.education-tab.active, 
+.certificate-tab.active {
+    border-color: #FFC225;
+    color: #FFC225;
+}
+
+/* Hover Effect */
+.education-tab:hover, 
+.certificate-tab:hover {
+    border-color: #FFC225;
+}
+
+.tab-content {
+  min-height: 300px; /* Adjust to a value that accommodates the tallest card */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: height 0.3s ease; /* Smooth transition for height */
+}

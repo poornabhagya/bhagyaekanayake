@@ -1,0 +1,212 @@
+/* General Hero Section Styles */
+.hero {
+    margin-top: 1rem; /* Adjust this value to reduce space from the navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem; /* Adjust padding for overall layout balance */
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.1rem; /* Reduced spacing below "Hello, I'm" */
+    line-height: 1.1; /* Adjusted line-height to reduce space between lines */
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-top: 0.1rem; /* Reduced spacing above "Bhagya Ekanayake" */
+    margin-bottom: 0.5rem; /* Adjusted spacing below */
+    line-height: 1.1; /* Reduced line-height to decrease space between lines */
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem; /* Adjusted for consistent spacing */
+    line-height: 1.5;
+}
+
+.react-typed {
+    font-size: 5rem; /* Increased font size for the changing animation text */
+    font-weight: bold;
+    color: #FFC225; /* Updated color for the changing animation text */
+    display: block;
+    margin-top: 0.5rem; /* Reduced space between "Who is interested in" and the typed text */
+    margin-bottom: 3rem; /* Reduced space below typed text */
+    line-height: 1.1; /* Reduced line-height to bring it closer to the next line */
+}
+
+.inter-animation-text {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 200; /* Lighter weight */
+    font-style: normal;
+    font-size: 1.2rem; /* Increase the size of the changing text */
+  }
+
+
+.resume-btn-container {
+    margin-top: 1rem; /* Retain spacing above button */
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background-color: #FFC225;
+    color: #1e1e1e;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 2rem;
+}
+
+.hero-content .btn:hover {
+    background-color: white; /* Hover effect */
+}
+
+/* Responsive Styles for Smaller Screens (Mobile, Tablets) */
+@media (max-width: 1024px) {
+    .hero {
+        padding: 1.5rem; /* Adjust padding for medium screens (tablets) */
+    }
+
+    .hero-content h1 {
+        font-size: 2rem; /* Slightly smaller font size for smaller screens */
+    }
+
+    .hero-content h2 {
+        font-size: 2.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .hero-content p {
+        font-size: 1.3rem; /* Slightly smaller paragraph font */
+    }
+
+    .react-typed {
+        font-size: 1rem; /* Adjusted font size for typed text */
+    }
+
+    .hero-content .btn {
+        font-size: 1.1rem; /* Adjusted button size */
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+}
+
+/* Responsive Styles for Small Screens (Mobile) */
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column; /* Stack the content vertically */
+      padding: 1rem; /* Less padding on mobile */
+      text-align: center; /* Center-align text for better readability */
+    }
+  
+    .hero-image {
+      order: -1; /* Move the image to the top before the text */
+      margin-bottom: 1rem; /* Add some space between the image and text */
+    }
+  
+    .hero-image img {
+      width: 80px; /* Adjust the size of the image on mobile */
+      height: 80px; /* Adjust the size of the image on mobile */
+      border-radius: 50%; /* Maintain the circle crop */
+      border: 5px solid white; /* White border around the image */
+      object-fit: cover; /* Ensure the image covers the area without distortion */
+    }
+
+  
+    .hero-content h1 {
+      font-size: 1.8rem; /* Reduce font size on mobile */
+    }
+  
+    .hero-content h2 {
+      font-size: 2rem; /* Reduce font size on mobile */
+    }
+  
+    .hero-content p {
+      font-size: 1.2rem; /* Reduce font size for paragraph */
+    }
+  
+    .react-typed {
+      font-size: 1rem; /* Adjust font size for typed text */
+    }
+  
+    .hero-content .btn {
+      font-size: 1rem; /* Adjust button size */
+      padding: 0.6rem 1.2rem; /* Smaller padding on mobile */
+    }
+
+    
+  }
+
+.highlight {
+    color: #FFC225; /* Change color to #FFC225 */
+}
+
+/* Font for "Hello, I'm" text */
+.inter-hello {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Lighter weight */
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+  
+  /* Font for "Bhagya Ekanayake" text */
+  .inter-bhagya {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500; /* Slightly bolder weight */
+    font-style: normal;
+    font-size: 3.5rem;
+  }
+  
+  /* Existing Hero Section Styles */
+  .hero {
+    margin-top: 1rem; /* Adjust this value to reduce space from the navbar */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem; /* Adjust padding for overall layout balance */
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.1rem; /* Reduced spacing below "Hello, I'm" */
+    line-height: 1.1; /* Adjusted line-height to reduce space between lines */
+  }
+  
+  .hero-content h2 {
+    font-size: 4rem;
+    margin-top: 0.1rem; /* Reduced spacing above "Bhagya Ekanayake" */
+    margin-bottom: 0.5rem; /* Adjusted spacing below */
+    line-height: 1.1; /* Reduced line-height to decrease space between lines */
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 0.8rem; /* Adjusted for consistent spacing */
+    line-height: 1.5;
+  }
+  
+  .inter-interested {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Lighter weight */
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 2rem; /* Reduced spacing above the text to reduce the gap */
+    margin-bottom: 0.5rem;
+}
+
+.hero-image img {
+    width: 350px;  /* Set the width */
+    height: 350px; /* Set the height */
+    border-radius: 50%; /* Crop into a circle */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    border: 8px solid white; /* Add a white border around the image */
+  }
